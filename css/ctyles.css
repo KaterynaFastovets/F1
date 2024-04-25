@@ -1,0 +1,52 @@
+/* тег */
+h1 {
+  background-color: #ee82ee;
+}
+
+/* клас */
+.main-content {
+  color: #167499;
+}
+
+/* ідентифікатор */
+#school {
+  color: chartreuse;
+}
+
+/* атрибут */
+a[href*="index"] {
+  background-color: #ffb6c1;
+}
+
+/* дочірні селектори */
+p > strong {
+  background-color: #f50e21;
+}
+
+/* вкладені селектори */
+p b {
+  background-color: #0000cd;
+}
+
+/* послідовність */
+h3 ~ span {
+  background-color: #00fa9a;
+}
+
+/* комбінації селекторів */
+h2,
+h4,
+footer {
+  font-size: 20px;
+  color: rgb(252, 234, 71);
+}
+
+h5,
+h6 {
+  background-color: #f50e21;
+  color: beige;
+}
+
+p ~ ol {
+  color: brown;
+}
