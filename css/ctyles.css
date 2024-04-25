@@ -50,3 +50,7 @@ h6 {
 p ~ ol {
   color: brown;
 }
+
+img {
+  margin: 0 auto;
+}
